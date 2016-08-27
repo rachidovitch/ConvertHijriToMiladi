@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EF593C1D71134200691809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF593B1D71134200691809 /* AppDelegate.swift */; };
+		04EF593E1D71134200691809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF593D1D71134200691809 /* ViewController.swift */; };
+		04EF59411D71134200691809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF593F1D71134200691809 /* Main.storyboard */; };
+		04EF59431D71134200691809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF59421D71134200691809 /* Assets.xcassets */; };
+		04EF59461D71134200691809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF59441D71134200691809 /* LaunchScreen.storyboard */; };
+		04EF59511D71134200691809 /* ConvertDateHijriToMiladiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF59501D71134200691809 /* ConvertDateHijriToMiladiTests.swift */; };
+		04EF595C1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF595B1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EF594D1D71134200691809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF59301D71134200691809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF59371D71134200691809;
+			remoteInfo = ConvertDateHijriToMiladi;
+		};
+		04EF59581D71134200691809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF59301D71134200691809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF59371D71134200691809;
+			remoteInfo = ConvertDateHijriToMiladi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF59381D71134200691809 /* ConvertDateHijriToMiladi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertDateHijriToMiladi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF593B1D71134200691809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EF593D1D71134200691809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EF59401D71134200691809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EF59421D71134200691809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EF59451D71134200691809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EF59471D71134200691809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF594C1D71134200691809 /* ConvertDateHijriToMiladiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertDateHijriToMiladiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF59501D71134200691809 /* ConvertDateHijriToMiladiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDateHijriToMiladiTests.swift; sourceTree = "<group>"; };
+		04EF59521D71134200691809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF59571D71134200691809 /* ConvertDateHijriToMiladiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertDateHijriToMiladiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF595B1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDateHijriToMiladiUITests.swift; sourceTree = "<group>"; };
+		04EF595D1D71134200691809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EF59351D71134200691809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF59491D71134200691809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF59541D71134200691809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF592F1D71134200691809 = {
+			isa = PBXGroup;
+			children = (
+				04EF593A1D71134200691809 /* ConvertDateHijriToMiladi */,
+				04EF594F1D71134200691809 /* ConvertDateHijriToMiladiTests */,
+				04EF595A1D71134200691809 /* ConvertDateHijriToMiladiUITests */,
+				04EF59391D71134200691809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EF59391D71134200691809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EF59381D71134200691809 /* ConvertDateHijriToMiladi.app */,
+				04EF594C1D71134200691809 /* ConvertDateHijriToMiladiTests.xctest */,
+				04EF59571D71134200691809 /* ConvertDateHijriToMiladiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EF593A1D71134200691809 /* ConvertDateHijriToMiladi */ = {
+			isa = PBXGroup;
+			children = (
+				04EF593B1D71134200691809 /* AppDelegate.swift */,
+				04EF593D1D71134200691809 /* ViewController.swift */,
+				04EF593F1D71134200691809 /* Main.storyboard */,
+				04EF59421D71134200691809 /* Assets.xcassets */,
+				04EF59441D71134200691809 /* LaunchScreen.storyboard */,
+				04EF59471D71134200691809 /* Info.plist */,
+			);
+			path = ConvertDateHijriToMiladi;
+			sourceTree = "<group>";
+		};
+		04EF594F1D71134200691809 /* ConvertDateHijriToMiladiTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF59501D71134200691809 /* ConvertDateHijriToMiladiTests.swift */,
+				04EF59521D71134200691809 /* Info.plist */,
+			);
+			path = ConvertDateHijriToMiladiTests;
+			sourceTree = "<group>";
+		};
+		04EF595A1D71134200691809 /* ConvertDateHijriToMiladiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF595B1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift */,
+				04EF595D1D71134200691809 /* Info.plist */,
+			);
+			path = ConvertDateHijriToMiladiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EF59371D71134200691809 /* ConvertDateHijriToMiladi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF59601D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladi" */;
+			buildPhases = (
+				04EF59341D71134200691809 /* Sources */,
+				04EF59351D71134200691809 /* Frameworks */,
+				04EF59361D71134200691809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertDateHijriToMiladi;
+			productName = ConvertDateHijriToMiladi;
+			productReference = 04EF59381D71134200691809 /* ConvertDateHijriToMiladi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EF594B1D71134200691809 /* ConvertDateHijriToMiladiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF59631D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladiTests" */;
+			buildPhases = (
+				04EF59481D71134200691809 /* Sources */,
+				04EF59491D71134200691809 /* Frameworks */,
+				04EF594A1D71134200691809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF594E1D71134200691809 /* PBXTargetDependency */,
+			);
+			name = ConvertDateHijriToMiladiTests;
+			productName = ConvertDateHijriToMiladiTests;
+			productReference = 04EF594C1D71134200691809 /* ConvertDateHijriToMiladiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EF59561D71134200691809 /* ConvertDateHijriToMiladiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF59661D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladiUITests" */;
+			buildPhases = (
+				04EF59531D71134200691809 /* Sources */,
+				04EF59541D71134200691809 /* Frameworks */,
+				04EF59551D71134200691809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF59591D71134200691809 /* PBXTargetDependency */,
+			);
+			name = ConvertDateHijriToMiladiUITests;
+			productName = ConvertDateHijriToMiladiUITests;
+			productReference = 04EF59571D71134200691809 /* ConvertDateHijriToMiladiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EF59301D71134200691809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rachidovitch;
+				TargetAttributes = {
+					04EF59371D71134200691809 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04EF594B1D71134200691809 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04EF59371D71134200691809;
+					};
+					04EF59561D71134200691809 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04EF59371D71134200691809;
+					};
+				};
+			};
+			buildConfigurationList = 04EF59331D71134200691809 /* Build configuration list for PBXProject "ConvertDateHijriToMiladi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EF592F1D71134200691809;
+			productRefGroup = 04EF59391D71134200691809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EF59371D71134200691809 /* ConvertDateHijriToMiladi */,
+				04EF594B1D71134200691809 /* ConvertDateHijriToMiladiTests */,
+				04EF59561D71134200691809 /* ConvertDateHijriToMiladiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EF59361D71134200691809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF59461D71134200691809 /* LaunchScreen.storyboard in Resources */,
+				04EF59431D71134200691809 /* Assets.xcassets in Resources */,
+				04EF59411D71134200691809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF594A1D71134200691809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF59551D71134200691809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EF59341D71134200691809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF593E1D71134200691809 /* ViewController.swift in Sources */,
+				04EF593C1D71134200691809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF59481D71134200691809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF59511D71134200691809 /* ConvertDateHijriToMiladiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF59531D71134200691809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF595C1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EF594E1D71134200691809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF59371D71134200691809 /* ConvertDateHijriToMiladi */;
+			targetProxy = 04EF594D1D71134200691809 /* PBXContainerItemProxy */;
+		};
+		04EF59591D71134200691809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF59371D71134200691809 /* ConvertDateHijriToMiladi */;
+			targetProxy = 04EF59581D71134200691809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EF593F1D71134200691809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF59401D71134200691809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EF59441D71134200691809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF59451D71134200691809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EF595E1D71134200691809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EF595F1D71134200691809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EF59611D71134200691809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvertDateHijriToMiladi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EF59621D71134200691809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConvertDateHijriToMiladi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04EF59641D71134200691809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvertDateHijriToMiladiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertDateHijriToMiladi.app/ConvertDateHijriToMiladi";
+			};
+			name = Debug;
+		};
+		04EF59651D71134200691809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConvertDateHijriToMiladiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertDateHijriToMiladi.app/ConvertDateHijriToMiladi";
+			};
+			name = Release;
+		};
+		04EF59671D71134200691809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConvertDateHijriToMiladiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConvertDateHijriToMiladi;
+			};
+			name = Debug;
+		};
+		04EF59681D71134200691809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConvertDateHijriToMiladiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rachidovitch.ConvertDateHijriToMiladiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConvertDateHijriToMiladi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF59331D71134200691809 /* Build configuration list for PBXProject "ConvertDateHijriToMiladi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF595E1D71134200691809 /* Debug */,
+				04EF595F1D71134200691809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF59601D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF59611D71134200691809 /* Debug */,
+				04EF59621D71134200691809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EF59631D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF59641D71134200691809 /* Debug */,
+				04EF59651D71134200691809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EF59661D71134200691809 /* Build configuration list for PBXNativeTarget "ConvertDateHijriToMiladiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF59671D71134200691809 /* Debug */,
+				04EF59681D71134200691809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EF59301D71134200691809 /* Project object */;
+}
