@@ -1,25 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B88-FP-a2a">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="mgE-b4-JtI">
+            <objects>
+                <viewController id="Fzy-S8-3Ae" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pV0-Kf-aNl"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSm-G9-KDR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2zt-aa-gup">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="برنامج تحويل التاريخ الميلادي إلى الهجري" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQO-kD-fNn">
+                                <rect key="frame" x="6" y="84" width="362" height="71"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hjriConverter.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wsc-e4-Epc">
+                                <rect key="frame" x="20" y="163" width="335" height="318"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cv-pp-wb4">
+                                <rect key="frame" x="109" y="506" width="157" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <state key="normal" title="دخول البرنامج"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dTe-qc-VIZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wsc-e4-Epc" firstAttribute="top" secondItem="HQO-kD-fNn" secondAttribute="bottom" constant="8" id="1Dr-Sq-ayK"/>
+                            <constraint firstItem="HQO-kD-fNn" firstAttribute="top" secondItem="pV0-Kf-aNl" secondAttribute="bottom" constant="20" id="HNN-SZ-bAC"/>
+                            <constraint firstItem="dSm-G9-KDR" firstAttribute="top" secondItem="2cv-pp-wb4" secondAttribute="bottom" constant="100" id="IXT-fO-hyE"/>
+                            <constraint firstItem="HQO-kD-fNn" firstAttribute="centerX" secondItem="2zt-aa-gup" secondAttribute="centerX" id="QBc-YX-hNC"/>
+                            <constraint firstItem="2cv-pp-wb4" firstAttribute="top" secondItem="Wsc-e4-Epc" secondAttribute="bottom" constant="25" id="caz-BO-Jpu"/>
+                            <constraint firstItem="2cv-pp-wb4" firstAttribute="top" secondItem="Wsc-e4-Epc" secondAttribute="bottom" constant="20" id="icA-LO-adV"/>
+                            <constraint firstItem="HQO-kD-fNn" firstAttribute="leading" secondItem="2zt-aa-gup" secondAttribute="leadingMargin" constant="-14" id="kSr-IT-mmJ"/>
+                            <constraint firstItem="2cv-pp-wb4" firstAttribute="centerX" secondItem="2zt-aa-gup" secondAttribute="centerX" id="lQw-Bj-LTJ"/>
+                            <constraint firstItem="Wsc-e4-Epc" firstAttribute="centerX" secondItem="2zt-aa-gup" secondAttribute="centerX" id="lcz-Fv-EJF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HQO-kD-fNn" secondAttribute="trailing" constant="-13" id="yB4-C9-BBQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8D0-9v-S7Y"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LaD-zR-4C5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964.5" y="323.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConvertDateHijriToMiladi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tkoimhjri.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O5c-Sl-kWs">
+                                <rect key="frame" x="0.0" y="310" width="375" height="357"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="التاريخ الميلادي :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWm-gy-dcp">
+                                <rect key="frame" x="196" y="110" width="143" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="التاريخ الهجري :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFP-EI-x00">
+                                <rect key="frame" x="196" y="159" width="143" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2K-md-qII">
+                                <rect key="frame" x="36" y="159" width="152" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="السنة" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1aS-mZ-LC4">
+                                <rect key="frame" x="36" y="116" width="152" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBT-yj-QiU">
+                                <rect key="frame" x="132" y="202" width="111" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="تحويل"/>
+                                <connections>
+                                    <action selector="convertButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hx-cm-oCd"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="المرجو إدخال سنة ميلادية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTj-1K-kBI">
+                                <rect key="frame" x="36" y="260" width="290" height="47"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lWm-gy-dcp" firstAttribute="leading" secondItem="1aS-mZ-LC4" secondAttribute="trailing" constant="8" id="0dr-pe-bEa"/>
+                            <constraint firstItem="M2K-md-qII" firstAttribute="width" secondItem="1aS-mZ-LC4" secondAttribute="width" id="Buv-0P-wCw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lWm-gy-dcp" secondAttribute="trailing" constant="16" id="BwJ-Hm-sQj"/>
+                            <constraint firstItem="OFP-EI-x00" firstAttribute="top" secondItem="lWm-gy-dcp" secondAttribute="bottom" constant="8" id="D5W-vG-yxf"/>
+                            <constraint firstItem="lWm-gy-dcp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="DIL-w7-GGY"/>
+                            <constraint firstItem="1aS-mZ-LC4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="ErC-qT-jQN"/>
+                            <constraint firstItem="M2K-md-qII" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="MvT-hd-mMl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O5c-Sl-kWs" secondAttribute="bottom" id="R5Q-bE-MkT"/>
+                            <constraint firstItem="O5c-Sl-kWs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Vv1-Vx-G9l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O5c-Sl-kWs" secondAttribute="trailing" constant="-20" id="Zcm-Ol-lSR"/>
+                            <constraint firstItem="1aS-mZ-LC4" firstAttribute="height" secondItem="lWm-gy-dcp" secondAttribute="height" id="aVD-Of-CWh"/>
+                            <constraint firstItem="OFP-EI-x00" firstAttribute="leading" secondItem="M2K-md-qII" secondAttribute="trailing" constant="8" id="cEm-Wi-8gj"/>
+                            <constraint firstItem="OFP-EI-x00" firstAttribute="top" secondItem="lWm-gy-dcp" secondAttribute="bottom" constant="8" id="hrb-8N-U1e"/>
+                            <constraint firstItem="M2K-md-qII" firstAttribute="top" secondItem="1aS-mZ-LC4" secondAttribute="bottom" constant="13" id="j34-nc-VTw"/>
+                            <constraint firstItem="M2K-md-qII" firstAttribute="top" secondItem="1aS-mZ-LC4" secondAttribute="bottom" constant="13" id="lL0-X9-njO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OFP-EI-x00" secondAttribute="trailing" constant="16" id="lfU-lT-bnI"/>
+                            <constraint firstItem="1aS-mZ-LC4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="nuc-LC-gEL"/>
+                            <constraint firstItem="OFP-EI-x00" firstAttribute="width" secondItem="lWm-gy-dcp" secondAttribute="width" id="qw0-fN-BTx"/>
+                            <constraint firstItem="M2K-md-qII" firstAttribute="width" secondItem="OFP-EI-x00" secondAttribute="height" multiplier="152:35" id="teu-n3-nsO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="attention" destination="jTj-1K-kBI" id="7d3-jP-vfF"/>
+                        <outlet property="hijriLabel" destination="M2K-md-qII" id="Z0C-t0-gCP"/>
+                        <outlet property="miladiTextField" destination="1aS-mZ-LC4" id="C5h-j5-HS6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1416.5" y="323.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Xj-HV-7Ap">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B88-FP-a2a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWX-m1-xLN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Fzy-S8-3Ae" kind="relationship" relationship="rootViewController" id="EbT-RI-UTW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5WN-6i-39z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417.5" y="347.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hjriConverter.png" width="300" height="300"/>
+        <image name="tkoimhjri.jpg" width="420" height="280"/>
+    </resources>
 </document>

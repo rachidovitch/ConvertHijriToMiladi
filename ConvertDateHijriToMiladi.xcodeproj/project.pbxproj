@@ -14,6 +14,8 @@
 		04EF59461D71134200691809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF59441D71134200691809 /* LaunchScreen.storyboard */; };
 		04EF59511D71134200691809 /* ConvertDateHijriToMiladiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF59501D71134200691809 /* ConvertDateHijriToMiladiTests.swift */; };
 		04EF595C1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF595B1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift */; };
+		04EF596A1D71148A00691809 /* tkoimhjri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EF59691D71148A00691809 /* tkoimhjri.jpg */; };
+		04EF596C1D71173800691809 /* hjriConverter.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF596B1D71173800691809 /* hjriConverter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04EF59571D71134200691809 /* ConvertDateHijriToMiladiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertDateHijriToMiladiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EF595B1D71134200691809 /* ConvertDateHijriToMiladiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDateHijriToMiladiUITests.swift; sourceTree = "<group>"; };
 		04EF595D1D71134200691809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF59691D71148A00691809 /* tkoimhjri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tkoimhjri.jpg; sourceTree = "<group>"; };
+		04EF596B1D71173800691809 /* hjriConverter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hjriConverter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		04EF593A1D71134200691809 /* ConvertDateHijriToMiladi */ = {
 			isa = PBXGroup;
 			children = (
+				04EF59691D71148A00691809 /* tkoimhjri.jpg */,
+				04EF596B1D71173800691809 /* hjriConverter.png */,
 				04EF593B1D71134200691809 /* AppDelegate.swift */,
 				04EF593D1D71134200691809 /* ViewController.swift */,
 				04EF593F1D71134200691809 /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EF59461D71134200691809 /* LaunchScreen.storyboard in Resources */,
+				04EF596A1D71148A00691809 /* tkoimhjri.jpg in Resources */,
 				04EF59431D71134200691809 /* Assets.xcassets in Resources */,
+				04EF596C1D71173800691809 /* hjriConverter.png in Resources */,
 				04EF59411D71134200691809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
